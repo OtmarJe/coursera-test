@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 0.5px;
+  margin: 0.4px;
   padding: 0.5px;
 }
 
@@ -36,9 +36,24 @@ p {
   padding: 10px;
 }
 
-a:hover, a:active {
+a.one:link, a.one:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a.one:hover, a.one:active {
 	background-color: #696969;
-	color: purple;
+	color: red;
+}
+
+a.two:link, a.two:visited {
+	text-decoration: none;
+	color: white;
+}
+
+a.two:hover, a.two:active {
+	background-color: #696969;
+	color: yellow;
 }
 
 .container {
@@ -54,7 +69,6 @@ a:hover, a:active {
 	float: right;
 	width: auto;
 	height: auto;
-	border: solid 5px #696969;
 	padding: 0;
 	margin-left: 12px;
 	margin-bottom: 6px;
@@ -74,7 +88,6 @@ a:hover, a:active {
 @media (min-width: 992px) {
 	.kastenX1, .kastenX2, .kastenX3 {
 	float: left;
-	border: 1px #696969;
 	}
 	.kastenX1 {
 		width: 33.2%;
@@ -90,29 +103,27 @@ a:hover, a:active {
 @media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
 	.kastenM1, .kastenM2, .kastenM3 {
 	float: left;
-	border: 3px #696969;
 	}
 	.kastenM1 {
-		width: 49%;
+		width: 49.8%;
 	}
 	.kastenM2 {
-		width: 49%;
+		width: 49.8%;
 	}
 	.kastenM3 {
-		width: 98%;
+		width: 99.7%;
 }
 
 @media (max-width: 767px) {
 	.kastenS1, .kastenS2, .kastenS3 {
 	float: left;
-	border: 3px #696969;
 	}
 	.kastenS1 {
-		width: 100%;
+		width: 99%;
 	}
 	.kastenS2 {
-		width: 100%;
+		width: 99%;
 	}
 	.kastenS3 {
-		width: 100%;
+		width: 99%;
 }
