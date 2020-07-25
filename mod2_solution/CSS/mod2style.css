@@ -100,7 +100,7 @@ a.two:hover, a.two:active {
 	}
 }
 
-@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 991px) {
 	.kastenM1, .kastenM2, .kastenM3 {
 	float: left;
 	}
