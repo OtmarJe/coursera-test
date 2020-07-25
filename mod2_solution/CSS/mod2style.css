@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0.5px;
+  padding: 0.5px;
+}
+
+body {
+	background-color: #FFF0F5;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #696969;
+	font-size: 4.5em;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 80px;
+}
+
+h2,
+h3 {
+	font-family: serif;
+	color: black;
+	font-size: 2em;
+}
+
+p {
+  font-family: serif; 
+  font-size: -2em%;
+  color: black;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+a:hover, a:active {
+	background-color: #696969;
+	color: purple;
+}
+
+.container {
+	border: solid 6px #696969;
+	position: center;
+	background-color: #DCDCDC;
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+}
+
+.box {
+	float: right;
+	width: auto;
+	height: auto;
+	border: solid 5px #696969;
+	padding: 0;
+	margin-left: 12px;
+	margin-bottom: 6px;
+}
+
+.font {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 2.5em;
+
+}
+
+.row {
+	width: 100%;
+}
+
+@media (min-width: 992px) {
+	.kastenX1, .kastenX2, .kastenX3 {
+	float: left;
+	border: 1px #696969;
+	}
+	.kastenX1 {
+		width: 33.2%;
+	}
+	.kastenX2 {
+		width: 66.4%;
+	}
+	.kastenX3 {
+		width: 98%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+	.kastenM1, .kastenM2, .kastenM3 {
+	float: left;
+	border: 3px #696969;
+	}
+	.kastenM1 {
+		width: 49%;
+	}
+	.kastenM2 {
+		width: 49%;
+	}
+	.kastenM3 {
+		width: 98%;
+}
+
+@media (max-width: 767px) {
+	.kastenS1, .kastenS2, .kastenS3 {
+	float: left;
+	border: 3px #696969;
+	}
+	.kastenS1 {
+		width: 100%;
+	}
+	.kastenS2 {
+		width: 100%;
+	}
+	.kastenS3 {
+		width: 100%;
+}
