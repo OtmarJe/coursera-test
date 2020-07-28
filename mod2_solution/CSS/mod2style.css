@@ -66,6 +66,8 @@ a.two:hover, a.two:active {
 .kasten {
 	border: solid 6px #696969;
 	background-color: #DCDCDC;
+	width: 100%;
+	margin: 3% 0% 0% 0%;
 }
 
 .container {
@@ -118,10 +120,12 @@ a.two:hover, a.two:active {
 		width: 31%;
 		margin-left: 0.9%;
 		margin-right: 1.4%;
+		margin-bottom: 4%;
 	}
 	.kastenX2 {
 		width: 62%;
 		margin-right: 1.4%;
+		margin-bottom: 4%;
 	}
 	.kastenX3 {
 		width: 95.5%;
@@ -134,7 +138,7 @@ a.two:hover, a.two:active {
 	}
 	.kastenM1 {
 		width: 47%;
-		margin-left: 1.7%
+		margin-left: 2%
 	}
 	.kastenM2 {
 		width: 47%;
@@ -143,24 +147,24 @@ a.two:hover, a.two:active {
 	.kastenM3 {
 		width: 96%;
 		margin-top: 2%;
-		margin-left: 1.7%;
+		margin-left: 2%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) and (min-width: 500px) {
 	.kastenS1, .kastenS2, .kastenS3 {
 	float: left;
 	}
 	.kastenS1 {
-		width: 96%;
-		margin-left: 1.7%;
+		width: 95.5%;
+		margin-right: 2%;
 	}
 	.kastenS2 {
-		width: 96%;
+		width: 95.5%;
 		margin-top: 2%;
-		margin-left: 1.7%;
+		margin-right: 2%;
 	}
 	.kastenS3 {
-		width: 96%;
+		width: 95.5%;
 		margin-top: 2%;
-		margin-left: 1.7%;
+		margin-right: 2%;
 }
