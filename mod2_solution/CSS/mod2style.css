@@ -78,16 +78,16 @@ a.two:hover, a.two:active {
 }
 
 .content {
-	padding: 10px;
+	padding: 15px;
 	margin: 0px;
 	border: none;
-	height: 200px;
+	height: auto;
 	overflow: auto;
 	font-family: serif;
   	font-style: italic;
   	font-variant: small-caps;
   	font-weight: lighter;
-  	font-size: 1em;
+  	font-size: 1.2em;
   	color: black; 
 }
 
@@ -143,20 +143,20 @@ a.two:hover, a.two:active {
 
 
 @media screen and (min-width: 992px) {
-	.col-lg-4 {
+	.COL-L4 {
 		float: left;
 		width: 33.33%;
 	}
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) and (orientation: landscape){
-	.col-md-6 {
+	.COL-M6 {
 		float: left;
 		width: 50%;
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.col-md-12 {
+	.COL-M12 {
 		float: left;
 		width: 100%;
 		margin-left: auto;
@@ -166,7 +166,7 @@ a.two:hover, a.two:active {
 }
 
 @media (max-width: 767px) and (min-device-width: 500px) and (orientation: portrait){
-	.col-sm-12 {
+	.COL-S12 {
 		float: left;
 		width: 100%;
 	}
