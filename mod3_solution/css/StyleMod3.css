@@ -257,7 +257,7 @@ a[href="#top2"] {
 
 /* small dvices */
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media all and (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
   .COL-M6 {
     float: left;
     width: 50%;
@@ -270,7 +270,14 @@ a[href="#top2"] {
     margin-left: auto;
     margin-right: auto;
   }
- 
+  .navbar-brand {
+    padding-top: 25px;
+    height: 78px;
+  }
+  .navbar-brand h1 {
+    padding-top: 25px;
+    font-size: 4em;
+  }
   #collapsable-nav a {
    display: none; 
   }
