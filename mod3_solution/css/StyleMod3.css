@@ -270,14 +270,7 @@ a[href="#top2"] {
     margin-left: auto;
     margin-right: auto;
   }
-  .navbar-brand {
-    padding-top: 20px;
-    height: 78px;
-  }
-  .navbar-brand h1 {
-    padding-top: 20px;
-    font-size: 2.8em;
-  }
+ 
   #collapsable-nav a {
    display: none; 
   }
