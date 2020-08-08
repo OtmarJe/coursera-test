@@ -1,0 +1,334 @@
+body {
+  font-size: 17px;
+  color: grey;
+  background-color: #FFF8DC;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+#header-nav {
+  background-color: #DC143C;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Pacifico', cursive;
+  color: #FF7F50;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1.5px 1.5px 1.5px grey;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  line-height: .1;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#nav-list a {
+  color: #FF7F50;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 1.3px 1.3px 1.3px grey;
+  font-size: 2em;
+}
+#nav-list a:hover {
+  background: #FFF8DC;
+}
+#nav-list a span {
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #FF8C00;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* END HEADER */
+
+.h1 {
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  color: #696969;
+  font-size: 6em;
+  text-align: center;
+  text-shadow: 5px, 5px, 5px, #aaa;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
+.h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #696969;
+  font-size: 3em;
+  text-align: center;
+  transform: rotate(-180deg);
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  padding: 15px;
+}
+
+p {
+  position: relative;
+  clear: right;
+}
+
+div.zero {
+  position: relative;
+  background-color: #800000;
+  border: solid 4px #696969;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+a.one:link, a.one:visited {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+a.one:hover, a.one:active {
+  color: red;
+  margin: 0px;
+  padding: 0px;
+}
+
+a.two:link, a.two:visited {
+  text-decoration: none;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+a.two:hover, a.two:active {
+  color: yellow;
+  margin: 0px;
+  padding: 0px;
+}
+
+a[href="#down0"] {
+  color: red;
+  font-style: bold;
+  font-size: 1.2em;
+}
+
+a[href="#down1"] {
+  color: red;
+  font-style: bold;
+  font-size: 1.2em;
+}
+
+a[href="#down2"] {
+  color: red;
+  font-style: bold;
+  font-size: 1.2em;
+}
+
+a[href="#top0"] {
+  color: red;
+  font-style: bold;
+  font-size: 1.2em;
+}
+
+a[href="#top1"] {
+  color: red;
+  font-style: bold;
+  font-size: 1.2em;
+}
+
+a[href="#top2"] {
+  color: red;
+  font-style: bold;
+  font-size: 1.2em;
+}
+
+.box01 {
+  align-items: center;
+}
+
+.content {
+  padding: 15px;
+  margin: 0px;
+  border: none;
+  height: auto;
+  overflow: auto;
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-variant: small-caps;
+  font-weight: lighter;
+  font-size: 1.2em;
+  color: white; 
+}
+
+.sub1 {
+  float: right;
+  width: auto;
+  padding: 5px;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  font-size: 2.5em;
+  border: solid 3px #696969;
+  border-top: none;
+  border-right: none;
+  background-color: #FF7F50;
+}
+
+.sub2 {
+  float: right;
+  width: auto;
+  padding: 5px;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  font-size: 2.5em;
+  border: solid 3px #696969;
+  border-top: none;
+  border-right: none;
+  background-color: #FF8C00;
+
+}
+
+.sub3 {
+  float: right;
+  width: auto;
+  padding: 5px;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  font-size: 2.5em;
+  border: solid 3px #696969;
+  border-top: none;
+  border-right: none;
+  background-color: #FA8072;
+
+}
+
+/* large dvices */
+
+@media screen and (min-width: 1200px) {
+  .COL-L4 {
+    float: left;
+    width: 33.33%;
+  }
+  #collapsable-nav a {
+   display: none; 
+  }
+}
+
+/* medium dvices */
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .COL-L4 {
+    float: left;
+    width: 33.33%;
+  }
+  #collapsable-nav a {
+   display: none; 
+  }
+}
+
+/* small dvices */
+
+@media all and (min-width: 768px) and (max-width: 991px) and (orientation: landscape){
+  .COL-M6 {
+    float: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .COL-M12 {
+    float: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar-brand {
+    padding-top: 20px;
+    height: 78px;
+  }
+  .navbar-brand h1 {
+    padding-top: 20px;
+    font-size: 5vw;
+  }
+  #collapsable-nav a {
+   display: none; 
+  }
+}
+
+/* extra small dvices */
+
+@media (max-width: 767px) and (min-device-width: 500px) and (orientation: portrait){
+  .COL-S12 {
+    float: left;
+    width: 100%;
+  }
+  .navbar-brand {
+    padding-top: 20px;
+    height: 78px;
+  }
+  .navbar-brand h1 {
+    padding-top: 20px;
+    font-size: 5vw;
+  }
+}
+
+.typewriter-h2 {
+  display: inline-block;
+  height: 3em;
+  text-align: right;
+  margin-left: 1.5%;
+  padding-right: 1.5%;
+  font-family: monospace;
+  overflow: hidden;
+  word-wrap: break-word;
+  white-space: nowrap;
+  animation: typing 9s steps(60) forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+  from {width: 0%;}
+  to {width: 100%;}
+}
+
+.shadow {
+  animation: text-shadow 13s infinite alternate;
+}
+
+@keyframes text-shadow {
+  0% {text-shadow: 1px 1px 0px #333}
+  10% {text-shadow: 3px 3px 2px #333}
+  20% {text-shadow: 9px 10px 6px #999}
+  40% {text-shadow: 10px 13px 6px #ccc}
+  60% {text-shadow: 6px 10px 4px #ccc}
+  80% {text-shadow: 2px 8px 3px #ccc}
+  100% {text-shadow: 1px 5px 1px #eee}
+}
