@@ -285,7 +285,7 @@ a[href="#top2"] {
 
 /* extra small dvices */
 
-@media (max-width: 767px) and (min-device-width: 500px) and (orientation: portrait){
+@media (max-width: 767px) and (min-device-width: 500px) and (orientation: portrait) {
   .COL-S12 {
     float: left;
     width: 100%;
@@ -296,6 +296,23 @@ a[href="#top2"] {
   }
   .navbar-brand h1 {
     padding-top: 18px;
+    font-size: 3vw;
+  }
+}
+
+/* extra extra small dvices */
+
+@media (max-width: 499px) and (min-device-width: 300px) and (orientation: portrait) {
+  .COL-S12 {
+    float: left;
+    width: 100%;
+  }
+  .navbar-brand {
+    padding-top: 16px;
+    height: 70px;
+  }
+  .navbar-brand h1 {
+    padding-top: 16px;
     font-size: 3vw;
   }
 }
