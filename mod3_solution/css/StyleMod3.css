@@ -257,7 +257,7 @@ a[href="#top2"] {
 
 /* small dvices */
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media all and (min-width: 768px) and (max-width: 991px) {
   .COL-M6 {
     float: left;
     width: 50%;
@@ -296,7 +296,7 @@ a[href="#top2"] {
   }
   .navbar-brand h1 {
     padding-top: 20px;
-    font-size: 5vw;
+    font-size: 3vw;
   }
 }
 
