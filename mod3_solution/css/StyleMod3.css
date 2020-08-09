@@ -278,7 +278,7 @@ a[href="#top2"] {
   .navbar-brand h1 {
     padding-top: 25px;
     padding-bottom: 25px;
-    font-size: .8em;
+    font-size: 0.5em;
   }
   #collapsable-nav a {
    display: none; 
