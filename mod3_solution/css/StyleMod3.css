@@ -276,7 +276,7 @@ a[href="#top2"] {
   }
   .navbar-brand h1 {
     padding-top: 18px;
-    font-size: 2vw;
+    font-size: 3vw;
   }
   #collapsable-nav a {
    display: none; 
@@ -291,12 +291,12 @@ a[href="#top2"] {
     width: 100%;
   }
   .navbar-brand {
-    padding-top: 20px;
+    padding-top: 18px;
     height: 78px;
   }
   .navbar-brand h1 {
-    padding-top: 20px;
-    font-size: 2vw;
+    padding-top: 18px;
+    font-size: 3vw;
   }
 }
 
