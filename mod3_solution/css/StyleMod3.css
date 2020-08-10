@@ -6,7 +6,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* HEADER */
+/* HEADING */
 #header-nav {
   background-color: #DC143C;
   border-radius: 0;
@@ -59,7 +59,23 @@ body {
   margin-top: -30px;
 }
 
-/* END HEADER */
+/* HEAD of */
+
+/* Start on FOOT */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #FFF8DC;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+
+/* End of FEET */
+
+/* CSS of MAIN  CONTENT */
 
 .h1 {
   font-family: 'Pacifico', cursive;
@@ -231,6 +247,10 @@ a[href="#top2"] {
 
 }
 
+/* End of MAIN */
+
+/* Start of MEDIA Q's */
+
 /* large dvices */
 
 @media screen and (min-width: 1200px) {
@@ -312,6 +332,10 @@ a[href="#top2"] {
     font-size: 4vw;
   }
 }
+
+/* End of MEDIA Q's */
+
+/* Start of ANIMATIONS */
 
 .typewriter-h2 {
   display: inline-block;
