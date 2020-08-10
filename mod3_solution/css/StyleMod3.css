@@ -77,7 +77,7 @@ body {
 
 /* CSS of MAIN  CONTENT */
 
-.h1 {
+.h2 {
   font-family: 'Pacifico', cursive;
   font-weight: bold;
   color: #696969;
@@ -99,6 +99,17 @@ body {
   margin-bottom: 60px;
 }
 
+.h4 {
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  color: #696969;
+  font-size: 10vw;
+  text-align: center;
+  text-shadow: 5px, 5px, 5px, #aaa;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
 section {
   position: relative;
   width: 100%;
@@ -118,6 +129,36 @@ div.zero {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
+}
+
+a.h2-link:link, a.h2-link:visited {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  color: #696969;
+}
+
+a.h2-link:hover, a.h2-link:active {
+  color: red;
+  margin: 0px;
+  padding: 0px;
+}
+
+a.h2-link2:link, a.h2-link2:visited {
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: 'Pacifico', cursive;
+  font-size: 4vw;
+  margin: 0px;
+  padding: 0px;
+  color: #FFF8DC;
+}
+
+a.h2-link2:hover, a.h2-link2:active {
+  color: #696969;
+  margin: 0px;
+  padding: 0px;
 }
 
 a.one:link, a.one:visited {
@@ -184,6 +225,13 @@ a[href="#top2"] {
 
 .box01 {
   align-items: center;
+}
+
+.box02 {
+  align-items: center;
+  padding: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .content {
@@ -337,7 +385,7 @@ a[href="#top2"] {
 
 /* Start of ANIMATIONS */
 
-.typewriter-h2 {
+.typewriter-h4 {
   display: inline-block;
   height: 3em;
   text-align: right;
