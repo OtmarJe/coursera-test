@@ -234,7 +234,7 @@ a[href="#top2"] {
 /* large dvices */
 
 @media screen and (min-width: 1200px) {
-  .COL-L4 {
+  .col-lg-4 {
     float: left;
     width: 33.33%;
   }
@@ -246,7 +246,7 @@ a[href="#top2"] {
 /* medium dvices */
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  .COL-L4 {
+  .col-md-4 {
     float: left;
     width: 33.33%;
   }
@@ -258,17 +258,15 @@ a[href="#top2"] {
 /* small dvices */
 
 @media all and (min-width: 768px) and (max-width: 991px) {
-  .COL-M6 {
+  .col-sm-6 {
     float: left;
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
   }
-  .COL-M12 {
+  .col-sm-12 {
     float: left;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
   }
   .navbar-brand {
     padding-top: 20px;
@@ -286,9 +284,8 @@ a[href="#top2"] {
 /* extra small dvices */
 
 @media (max-width: 767px) and (min-device-width: 500px) and (orientation: portrait) {
-  .COL-S12 {
+  .col-xs-12 {
     float: left;
-    width: 100%;
   }
   .navbar-brand {
     padding-top: 18px;
@@ -303,9 +300,8 @@ a[href="#top2"] {
 /* extra extra small dvices */
 
 @media (max-width: 499px) and (min-device-width: 300px) and (orientation: portrait) {
-  .COL-S12 {
+  .col-xs-12 {
     float: left;
-    width: 100%;
   }
   .navbar-brand {
     padding-top: 16px;
