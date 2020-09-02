@@ -72,14 +72,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 // *** start ***
 // On first load, show home view
-showLoading("#main-content");
-$ajaxUtils.sendGetRequest(
-  homeHtml,
-  function (responseText) {
-    document.querySelector("#main-content")
-      .innerHTML = responseText;
-  },
-  false);
+
+
+  buildAndShowHomeHtml()
+
+
 });
 
 
@@ -89,17 +86,32 @@ $ajaxUtils.sendGetRequest(
       // var chosenCategoryShortName = ....
 
 
-function buildAndShowHomeHtml (categories) {
+function buildAndShowHomeHtml () {
+
+  showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
-    homeHtmlUrl,
-    function (homeHtml) {
+    allCategoriesUrl,
+    function (categories) {
       function chooseRandomCategory (categories) {
-      var randomArrayIndex = Math.floor(Math.random() * categories.length);
-      return categories[randomArrayIndex];
+        var randomArrayIndex = Math.floor(Math.random() * categories.length);
+        return categories[randomArrayIndex].short_name;
       }
-      var choosenCategoryShortName = categories[randomArrayIndex];
+      var randomCategoryShortName = chooseRandomCategory (categories);
+
+      $ajaxUtils.sendGetRequest(
+        homeHtml,
+        function (homeHtml) {
+          homeHtml = insertProperty(homeHtml, 'randomCategoryShortName', randomCategoryShortName)
+          insertHtml("#main-content", homeHtml);
+        },
+        false);
     },
-    false);
+    true);
+
+
+
+
+
 }
 
 
@@ -262,7 +274,7 @@ function buildMenuItemsViewHtml(categoryMenuItems,
                      menuItems[i].name);
     html =
       insertProperty(html,
-                     "description",
+                     "descriptionxxx",
                      menuItems[i].description);
 
     if (i % 2 != 0) {
